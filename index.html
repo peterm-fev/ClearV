@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon bateau : BLUE TOUF — Multimédia</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e6f2ff;
+            padding: 20px;
+            margin: 0;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #003366;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .gallery img {
+            max-width: 45%;
+            border: 2px solid #003366;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .video-container {
+            text-align: center;
+            margin: 30px 0;
+        }
+        video {
+            max-width: 100%;
+            border: 2px solid #003366;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>📸🎥 Mon bateau : BLUE TOUF — Galerie multimédia</h1>
+
+    <div class="gallery">
+        <img src="photo1.jpg" alt="Bateau BLUE TOUF amarré sur un canal">
+        <img src="photo2.jpg" alt="Vue rapprochée du pont">
+        <img src="photo3.jpg" alt="Détail du nom du bateau">
+        <img src="photo4.jpg" alt="Arbres et ciel autour du canal">
+    </div>
+
+    <div class="video-container">
+        <video controls width="600">
+            <source src="video.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo HTML5.
+        </video>
+        <p><em>▶️ Vidéo du bateau en mouvement ou amarré</em></p>
+    </div>
+
+    <div class="footer">
+        <p>Photo & vidéo prises à Gevrey-Chambertin, France — 2026</p>
+        <p>👉 Ouvrez ce fichier dans Safari, Chrome ou Firefox pour une expérience complète.</p>
+    </div>
+</body>
+</html>
